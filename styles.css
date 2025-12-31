@@ -10,6 +10,7 @@
 }
 body{
     font-family: "Poppins";
+    overflow-x: hidden;
 }
 nav{
     display: flex;
@@ -186,4 +187,27 @@ main{
 }
 .yourUserSection img{
     width: 40vw;
+}
+.areYouReady{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    padding: 100px;
+}
+.areYouReady h2{
+    font-size: xx-large;
+}
+.areYouReady div{
+    background-color: var(--Pink);
+    max-width: 20vw;
+    margin: 0 auto;
+    padding: 1.2rem;
+    border-radius: 100px;
+}
+.footerBackground{
+    width: 100vw;
+    height: 100px;
+}
+footer{
+    width: 100vw;
 }
