@@ -1,6 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+body{
+    font-family: "Poppins";
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 12vh;
     padding: 2%;
+    /* border: solid 2px red; */
+}
+
+.headerTag{
+    font-size: xx-large;
+}
+.tryItButton{
+    text-align: center;
+    border: 1px solid var(--Light-Pink);
+    box-shadow: 0 0 4px var(--Light-Pink);
+    color: var(--Light-Pink);
+    min-width: 5vw;
+    padding: 1rem;
+    border-radius: 100px;
+}
+main{
+    max-height: 100vh;
+    padding: 10%;
+    text-align: center;
+}
+.aboutLine{
+    font-size: x-large;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding-bottom: 1rem ;
+}
+.getStartedButton{
+    background-color: var(--Pink);
+    font-family: "Poppins";
+    color: var(--Very-Pale-Blue);
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 40px;
+    scale: 1.4;
+}
+.getStartedButton:hover{
+    background-color: var(--Light-Pink);
+    cursor: pointer;
+}
+#screenMockupImg{
+    margin-top: 5rem;
+    width: 80vw;
 }
