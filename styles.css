@@ -62,3 +62,42 @@ main{
     margin-top: 5rem;
     width: 80vw;
 }
+.logisticsInfo{
+    display: flex;
+    margin: 0 auto;
+    width: 60vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.community img{
+    width: 40px;
+}
+.logiNum{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.logiNumCont{
+    color: grey;
+    font-size: larger;
+    font-weight: 400;
+}
+.community{
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contentBox{
+    display: flex;
+    flex-direction: column;
+}
+.community span{
+    
+}
+
+.community:nth-child(1){
+    height: fit-content;    
+}
+.community:nth-child(2){
+    height: fit-content;    
+}
