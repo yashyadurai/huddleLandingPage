@@ -65,7 +65,7 @@ main{
 .logisticsInfo{
     display: flex;
     margin: 0 auto;
-    width: 60vw;
+    width: 100vw;
     justify-content: space-around;
     align-items: center;
 }
@@ -121,12 +121,69 @@ main{
 .growTogetherSection div{
     max-width: 550px;
     justify-content: center;
-    scale: 1.3;
+    font-size: 2ch;
 }
 .growTogetherSection div h2{
     font-size: xx-large;
     font-weight: 700;
 }
 .growTogetherSection img{
+    width: 40vw;
+}
+
+.flowingConversationSection{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.flowingConversationSection div{
+    max-width: 550px;
+    justify-content: center;
+}
+.flowingConversationSection div h2{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.flowingConversationSection div p{
+    width: 1fr;
+}
+.flowingConversationSection img{
+    width: 50vw;
+}
+
+
+.yourUserSectionBg_1{
+    width: 100vw;
+    margin: 0;
+    position: relative;
+    top: 7px;
+}
+.yourUserSectionBg_2{
+    width: 100vw;
+    margin: 0;
+}
+.yourUserSection{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #f6fbff;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+}
+.yourUserSection div{
+    max-width: 550px;
+    justify-content: center;
+    font-size: 2ch;
+}
+.yourUserSection div h2{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.yourUserSection img{
     width: 40vw;
 }
