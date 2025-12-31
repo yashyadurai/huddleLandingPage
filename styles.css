@@ -11,6 +11,7 @@
 body{
     font-family: "Poppins";
     overflow-x: hidden;
+    width: 100vw;
 }
 nav{
     display: flex;
@@ -189,8 +190,6 @@ main{
     width: 40vw;
 }
 .areYouReady{
-    position: absolute;
-    top: 100px;
     text-align: center;
     padding: 100px;
 }
@@ -203,11 +202,77 @@ main{
     margin: 0 auto;
     padding: 1.2rem;
     border-radius: 100px;
+    color: var(--Very-Pale-Blue);
+    font-weight: 400;
+    cursor: pointer;
 }
 .footerBackground{
     width: 100vw;
     height: 100px;
 }
 footer{
-    width: 100vw;
+    background-color: #00252e;
+    position: relative;
+    top:-7px;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    color: var(--Very-Pale-Blue);
+}
+
+.emailAndNumberDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: solid 1px black; */
+    width: 30vw;
+}
+.emailAndNumberDiv h3{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.phoneNumber::before{
+    content: url(/images/icon-phone.svg);
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+.emailFooter::before{
+    content: url(/images/icon-email.svg);
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+input{
+    /* border: solid 1px black; */
+    padding: 20px;
+    accent-color: var(--Pink);
+    border-radius: 1rem;
+}
+.emailAndButton{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.subscribeButton{
+    max-width: 120px;
+    font-weight: 600;
+    background-color: var(--Pink);
+    padding: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+.subscribeButton:active{
+    background-color: var(--Light-Pink);
+}
+.svgLogo{
+	margin-top: 32px;
+}
+.infoHuddleFooter{
+    width: 30vw;
+	margin-top: 56px;
+}
+path{
+    fill: var(--Very-Pale-Blue);
 }
